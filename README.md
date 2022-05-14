@@ -20,7 +20,8 @@ Step3: make client
 
 In the server side you will see the output as:
 
-![Screenshot 2022-05-14 at 5 01 20 PM](https://user-images.githubusercontent.com/48493235/168423900-f7e21fca-c8fa-4c55-b9da-6fe9f6de323d.png)
+![Screenshot 2022-05-14 at 5 05 23 PM](https://user-images.githubusercontent.com/48493235/168423946-64b4a46e-43bb-40a1-92a4-83c36705eebe.png)
+
 
 
 
