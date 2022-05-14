@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package domain;
+
+option go_package = "./internal/grpc/domain";
+
+service ResositoryService {
+    rpc Add(RepositoryRequest) returns (AddRepositoryResponse);
+}
+
+message RepositoryRequest {
+    int64 Id = 1;
+    string name = 2;
+    int64 userId = 3;
+    bool isPrivate = 4;
+}
+
+message AddRepositoryResponse {
+    RepositoryRequest addedRepository = 1;
+    Error error = 2;
+}
+
+message Error {
+    string code = 1;
+    string message = 2;
+
+}
+
